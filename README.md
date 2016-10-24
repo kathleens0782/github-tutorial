@@ -13,8 +13,8 @@ directory (or code in the staging area) permanently for the programer.
 
 **GitHub:**
 *  Stores information in a "cloud" 
-    * (_AKA: The website [c9.io](https://c9.io)_)
-    * _Does_ require Git
+    * (_ex.: The website [c9.io](https://c9.io)_)
+    * _Does_ indeed require Git
     * This is great for storing code, instead of typing large amounts  
       of code only to lose it by accidently deleting it.
 
@@ -82,17 +82,31 @@ helpful.
 
 ---
 ## Workflow & Commands
-**git status:** shows the progress of  
+**`git status`:** shows the progress of  
 your code
 * **!!!VERY IMPORTANT!!!**
 
-**git init:**
+**`git init`:**
 initializes git in directory for version control
 
-**git add . :** Adds files to the current directory
+**`git add . `:** Adds files to the current directory
+
+**`rm -rf .git`:** removes initalized code
+
+**`cd`:** moves you to a folder
+
+**`cd ..`:** moves you up a folder
+
+**`ls`:** shows content in a directory
+
+**`mkdir` and `rmdir`:** makes and removes directories
+
+**`touch filename.md`:** makes a file
+
+**Git used to remembering these (laugh I'm hilarious).** 
 
 ---
-# Common Errors
+## Common Errors
 
 There are many errors you can make while  
 coding, and that's perfectly fine as long  
@@ -103,6 +117,24 @@ mistakes. Many examples include:
 coder has to go through, the solution here is  
 simple! All you have to to is exit by pressing `q`.  
 Yeah!
+
+**Forgetting to use `cd`:** In this situation, you  
+could be making a file, but you wonder why the file is  
+outside of the intented folder. You forgot to `cd`  
+into the folder before they made a new `touch` file.
+
+**Misspellings and Mistakes:** So your coding your file, and  
+your ready to save, only to find that your not in your workspace  
+anymore. What happened? Well, it could've been that you accidently  
+typed `stauts` instead of `status`, or you forgot to put a quotation  
+mark at the end of your commit message. Don't panic though, you can always  
+simply `cd` back into the directory and carfully type that code again.
+
+**COMMIT, COMMIT, COMMIT!:** Your save your code with `git push`, and  
+you expect to see the fruits of your labor on GitHub. However, you  
+end up seeing that nothing changed! Now now, don't freak out, the world  
+isn't ending anytime soon. You just forgot to make a **commit** message to your  
+save. That's normal. Even I forget sometimes.
 
 
 
