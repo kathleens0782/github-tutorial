@@ -4,12 +4,22 @@ _by Kathleen Dawn Saloma_
 
 ---
 ## Git vs. GitHub
+
+Y'know why Git and Github are great? Because you could get a glass of  
+milk, someone could break your computer with a hammer in hopes of ruining  
+your hopes and dreams while your not looking, and then you can be like  
+"Sike, I saved my code."
+
+What I'm saying is, Git and Github are important for saving code. You'll  
+get it once you read this entire tutorial/guide.
+
 **Git:**
 *  Takes "screenshots" of the code
     *   Does _not_ require GitHub
 
 Git is a program that is used to take "screenshots" of a Git   
 directory (or code in the staging area) permanently for the programer.  
+In other words, you like photography? Good, that's what it's like.
 
 **GitHub:**
 *  Stores information in a "cloud" 
@@ -20,7 +30,7 @@ directory (or code in the staging area) permanently for the programer.
 
 Github is a program that actually does save the code in a "cloud" for the programer ([Cloud9](https://c9.io)
 being one of many "clouds"). This is great for someone who has tons of code, yet they want to make sure that  
-they never have to worry about losing said code.
+they never have to worry about losing said code. Horray for being effiencent!
 
 ---
 ## Initial Setup
@@ -135,6 +145,11 @@ you expect to see the fruits of your labor on GitHub. However, you
 end up seeing that nothing changed! Now now, don't freak out, the world  
 isn't ending anytime soon. You just forgot to make a **commit** message to your  
 save. That's normal. Even I forget sometimes.
+
+**Add:** _Nooo...I'm not typing this because **I** forgot to do this..._  
+_T-totally not!_ I'm just saying, if you ever plan to make a commit message  
+to your code, make sure it's initalized with `git add .` first. Just a bit  
+of advice...
 
 
 
